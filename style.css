@@ -1,0 +1,99 @@
+:root {
+    --primary-dark-cyan: hsl(158, 36%, 37%);
+    --primary-cream: hsl(30, 38%, 92%);
+    --neutral-dark-blue: hsl(212, 21%, 14%);
+    --neutral-dark-grayish-blue: hsl(228, 12%, 48%);
+    --neutral-white: hsl(0, 0%, 100%);
+
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: var(--primary-cream);
+}
+
+.img-desktop {
+    height: 440px;
+    width: 310px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.container {
+    background: var(--neutral-white);
+    width: 620px;
+    height: 440px;
+    margin: 115px auto;
+    border-radius: 10px 10px;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+}
+
+.container .item {
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    margin: 25px 25px 25px;
+    letter-spacing: 0.3em;
+    font-size: 14px;
+    color: var(--neutral-dark-grayish-blue);
+}
+
+.container h1 {
+    font-family: Fraunces, sans-serif;
+    margin: 15px 25px 15px;
+    font-size: 2em;
+
+}
+
+p {
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    color: var(--neutral-dark-grayish-blue);
+    margin: 15px 55px 15px 25px;
+    line-height: 1.5;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 15px 25px 15px;
+}
+
+.container .new-price {
+    font-family: Fraunces, sans-serif;
+    color: var(--primary-dark-cyan);
+    font-size: 1.9em;
+    margin-right: 25px;
+}
+
+.container .old-price {
+    font-family: Montserrat, sans-serif;
+    color: var(--neutral-dark-grayish-blue);
+    font-size: 0.8em;
+    margin-top: 11px;
+}
+
+button {
+    margin: 15px 25px 25px;
+    border: none;
+    border-radius: 10px;
+    font-family: Montserrat, sans-serif;
+    background: var(--primary-dark-cyan);
+    color: var(--neutral-white);
+    padding: 12px 80px;
+    cursor: pointer;
+
+}
+
+.icon {
+    margin-right: 2.9px;
+}
